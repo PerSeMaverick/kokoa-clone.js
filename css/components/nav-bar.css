@@ -8,17 +8,17 @@
   width: 100%;
 }
 
-.nav_list {
+.nav__list {
   display: flex;
   justify-content: space-between;
 }
 
-.nav_link {
+.nav__link {
   position: relative;
   color: #2e463e;
 }
 
-.nav_notification {
+.nav__notification {
   background-color: tomato;
   width: 20px;
   height: 20px;
@@ -33,7 +33,7 @@
   bottom: 15px;
 }
 
-.nav_ellipsis_notification {
+.nav__ellipsis_notification {
   background-color: tomato;
   width: 5px;
   height: 5px;

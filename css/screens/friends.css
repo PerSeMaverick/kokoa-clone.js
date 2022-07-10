@@ -1,0 +1,19 @@
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 13px 0px;
+  font-weight: bold;
+}
+
+#friends-display-link .fas {
+  opacity: 0.2;
+}
+
+.fa-info-circle {
+  padding: 0px 7px;
+}
+
+.fa-angle-right {
+  padding: 0px 13px;
+}
