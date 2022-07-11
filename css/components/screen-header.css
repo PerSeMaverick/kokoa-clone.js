@@ -11,6 +11,14 @@
   font-weight: bolder;
 }
 
+.screen-header__icons {
+  display: flex;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__icons .red-dot {
+  margin-left: 3px;
 }
