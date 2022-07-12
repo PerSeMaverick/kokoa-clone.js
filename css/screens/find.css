@@ -1,28 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
-  padding-bottom: 30px;
-}
-
-.find-icons__icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icons:nth-child(3) {
-  padding-right: 7px;
-}
-
-.find-icons__icons i {
-  font-size: 40px;
-}
-
-.find-icons__icons span {
-  margin-top: 15px;
-}
-
 .recommended-friends {
   padding-top: 10px;
   border-top: var(--main-border);

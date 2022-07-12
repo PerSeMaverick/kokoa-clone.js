@@ -1,0 +1,46 @@
+h6 {
+  opacity: 0.7;
+}
+h6 i {
+  color: tomato;
+}
+.more-screen {
+  border-bottom: var(--main-border);
+}
+
+.more-screen,
+.more-screen_suggestion {
+  justify-content: space-around;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.more-screen__icons {
+  width: 100px;
+  height: 90px;
+}
+
+.talk-drive_icon {
+  position: relative;
+}
+
+.talk-drive_red-dot {
+  position: absolute;
+  right: 8px;
+}
+
+.more-screen_suggestion-header {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.more-screen_suggestion-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.more-screen_suggestion-icons {
+  width: 120px;
+  height: 110px;
+}
