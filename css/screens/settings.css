@@ -1,3 +1,7 @@
+.setting_main-screen {
+  padding: 90px var(--horizontal-space);
+}
+
 .settings__setting {
   font-size: 20px;
   padding: 20px 0px;

@@ -1,0 +1,8 @@
+#chattingroom-screen {
+  background-color: #9fb9c7;
+  height: 1000vh;
+}
+
+.alt-header__colunm span:last-child {
+  margin-left: 20px;
+}
