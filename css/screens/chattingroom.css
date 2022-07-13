@@ -88,3 +88,54 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 0px;
 }
+
+.reply {
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reply_plus {
+  text-align: center;
+  width: 10%;
+  color: var(--font-color);
+}
+
+.reply_send {
+  width: 90%;
+}
+
+.reply_send input {
+  border: var(--main-border);
+  border-radius: 20px;
+  padding: 5px 10px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.reply_send > i,
+.reply_send button {
+  position: absolute;
+}
+
+.reply_send > i {
+  top: 10px;
+  right: 45px;
+  color: var(--font-color);
+}
+.reply_send button {
+  width: 25px;
+  height: 25px;
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 50%;
+  top: 6px;
+  right: 11.5px;
+}
