@@ -1,8 +1,90 @@
+#chattingroom_status-bar {
+  z-index: 2;
+}
+#chattingroom_alt-header {
+  z-index: 1;
+}
+
+#chattingroom_status-bar,
+#chattingroom_alt-header,
 #chattingroom-screen {
   background-color: #9fb9c7;
+}
+
+#chattingroom-screen {
   height: 1000vh;
 }
 
 .alt-header__colunm span:last-child {
   margin-left: 20px;
+}
+
+.main-chat {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-chat_timestamp {
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.main-chat_message {
+  width: 100%;
+  display: flex;
+  margin-top: 35px;
+}
+
+.main-chat_message > img {
+  width: 55px;
+  height: 55px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.main-chat_callersmessage,
+.my-info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-chat_message-caller {
+  opacity: 0.8;
+  font-size: 15px;
+  margin-bottom: 13px;
+}
+
+.main-chat_message-contents {
+  font-size: 18px;
+  background-color: white;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+}
+
+.main-chat_message-time {
+  opacity: 0.8;
+  width: 30px;
+  font-size: small;
+  margin-left: 8px;
+}
+
+.my-message {
+  display: flex;
+  justify-content: flex-end;
+}
+.my-time {
+  margin-right: 8px;
+}
+
+.my-contents {
+  background-color: var(--yellow);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 0px;
 }
