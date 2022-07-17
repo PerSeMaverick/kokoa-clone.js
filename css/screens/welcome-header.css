@@ -14,3 +14,16 @@
 .welcome-header .Welcome-header__text {
   opacity: 0.5;
 }
+
+@keyframes cogSpin {
+  form {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: cogSpin 1s linear infinite;
+}
